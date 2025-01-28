@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Services\Calculator\CalculatorContext;
 use App\Services\Calculator\Operations\Addition;
 use App\Services\Calculator\Operations\Subtraction;
 use App\Services\Calculator\Operations\Multiplication;
 use App\Services\Calculator\Operations\Division;
+use App\Services\CalculatorContext;
 use Illuminate\Http\Request;
 
 
